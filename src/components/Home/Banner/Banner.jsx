@@ -15,10 +15,10 @@ const Banner = () => {
           </p>
           <div className="ctas">
             <div className="banner-cta">Read More</div>
-            <div className="banner-cta v2">Shop</div>
+            <div className="banner-cta v2">Shop Now</div>
           </div>
         </div>
-        <img src={BannerImg} alt="BannerImg" />
+        <img className="banner-img" src={BannerImg} alt="BannerImg" />
       </div>
     </div>
   );
